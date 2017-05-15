@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- build:css content/css/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css content/css/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="content/css/index.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+
+<body>
+    {{23+11}}
+
+    <i class="fa fa-bars" aria-hidden="true"></i>
+
+    <div class="container">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        <ui-view></ui-view>
+    </div>
+
+    <!-- build:js vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/toastr/toastr.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js app.js-->
+    <!-- inject:js -->
+    <script src="app.module.js"></script>
+    <script src="templates/dashboard/dashboard.module.js"></script>
+    <script src="templates/dashboard/dashboard.controller.js"></script>
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- inject-templates:js -->
+    <!-- endinject -->
+
+
+</body>
+
+</html>

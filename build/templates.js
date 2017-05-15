@@ -1,0 +1,1 @@
+angular.module('app').run(['$templateCache', function($templateCache) {$templateCache.put('templates/dashboard/dashboard.html','<div><h1>Title</h1><p></p></div>');}]);
